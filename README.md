@@ -6,4 +6,4 @@ Inspired by https://cryptoscamdb.org/ and https://www.web3rekt.com/ that keeps t
 
 ## Datasets
 
-* `malicious_smart_contracts.csv`: Smart contracts deployed by malicious addresses with etherscan labels `exploit`, `heist`, and `phish-hack`.
+* `labels/1/malicious_smart_contracts.csv`: Smart contracts deployed on Ethereum Mainnet (chainId: 1) by malicious addresses with etherscan labels `exploit`, `heist`, and `phish-hack`.
