@@ -6,4 +6,11 @@ Inspired by https://cryptoscamdb.org/ and https://www.web3rekt.com/ that keeps t
 
 ## Datasets
 
+### ChainId 1: Ethereum
+
 * `labels/1/malicious_smart_contracts.csv`: Smart contracts deployed on Ethereum Mainnet (chainId: 1) by malicious addresses with etherscan labels `exploit`, `heist`, and `phish-hack`.
+
+### ChainId 10: Optimism
+
+* `labels/10/malicious_smart_contracts.csv`: Smart contracts deployed on Optimism (chainId: 10) by malicious addresses with optimistic.etherscan label `exploit`.
+
