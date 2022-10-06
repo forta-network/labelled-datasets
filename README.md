@@ -4,32 +4,16 @@ Publicly available datasets of suspicious Web3 activity is limited on all Forta 
 
 Inspired by https://cryptoscamdb.org/ and https://www.web3rekt.com/ that keeps track of crypto scams in an open source database, this repository aims to maintain and share Web3 threat related datasets with the Forta community. Contributions are welcome!
 
-## Datasets
+## Malicious Smart Contracts
 
-### ChainId 1: Ethereum
+### Datasets
 
-#### `labels/1/malicious_smart_contracts.csv`
+| 🗂 Filepath | ⛓ Chain | 📝 Description |
+|---|---|---|
+| `labels/1/malicious_smart_contracts.csv`  | Ethereum Mainnet  | Smart contracts deployed on Ethereum Mainnet (chainId: 1). Data was extracted from the following sources: <ul><li>[Luabase](https://luabase.com) `ethereum.tags` table: malicious addresses with etherscan labels `exploit`, `heist`, and `phish-hack`</li><li>🛠Coming soon!🛠: More DeFi hacks</li></ul> |
+| `labels/10/malicious_smart_contracts.csv`  | Optimism  | Smart contracts deployed on Optimism (chainId: 10). Data was extracted from the following sources: <ul><li>Malicious addresses with optimistic.etherscan label `exploit`</li></ul> |
 
-Smart contracts deployed on Ethereum Mainnet (chainId: 1). Data was extracted from the following sources:
-* [Luabase](https://luabase.com) `ethereum.tags` table: malicious addresses with etherscan labels `exploit`, `heist`, and `phish-hack`
-
-#### `labels/1/phishing_scams.csv`
-
-Addresses involved in phishing scams. Data was extracted from the following sources:
-* [Luabase](https://luabase.com) `ethereum.tags` table: malicious addresses with etherscan labels `phish-hack`
-
-
-### ChainId 10: Optimism
-
-#### `labels/10/malicious_smart_contracts.csv`
-
-Smart contracts deployed on Optimism (chainId: 10). Data was extracted from the following sources:
-* Malicious addresses with optimistic.etherscan label `exploit`
-
-
-## Dataset Schema
-
-### `malicious_smart_contracts`
+### Schema
 
 CSV files with the name `malicious_smart_contracts.csv` will have the following columns:
 
@@ -44,7 +28,15 @@ CSV files with the name `malicious_smart_contracts.csv` will have the following 
 | notes  | any additional notes  |
 | contract_creator_etherscan_label  | etherscan labels for contract_creator address |
 
-### `phishing_scams`
+## Phishing Scams
+
+### Datasets
+
+| 🗂 Filepath | ⛓ Chain | 📝 Description |
+|---|---|---|
+| `labels/1/phishing_scams.csv`  | Ethereum Mainnet  | Addresses involved in phishing scams. Data was extracted from the following sources: <ul><li>[Luabase](https://luabase.com) `ethereum.tags` table: malicious addresses with etherscan labels `phish-hack`</li><li>🛠Coming soon!🛠: Phishing scams from [Chainabuse](https://www.chainabuse.com/)</li></ul> |
+
+### Schema
 
 CSV files with the name `phishing_scams.csv` will have the following columns: coming soon!
 
