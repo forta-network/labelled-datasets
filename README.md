@@ -38,7 +38,7 @@ CSV files with the name `malicious_smart_contracts.csv` will have the following 
 
 ### Schema
 
-CSV files with the name `phishing_scams.csv` will have the following columns: coming soon!
+CSV files with the name `phishing_scams.csv` will have the following columns:
 
 | Column | Description   |
 |---|---|
