@@ -8,9 +8,44 @@ Inspired by https://cryptoscamdb.org/ and https://www.web3rekt.com/ that keeps t
 
 ### ChainId 1: Ethereum
 
-* `labels/1/malicious_smart_contracts.csv`: Smart contracts deployed on Ethereum Mainnet (chainId: 1) by malicious addresses with etherscan labels `exploit`, `heist`, and `phish-hack`.
+* `labels/1/malicious_smart_contracts.csv`: Smart contracts deployed on Ethereum Mainnet (chainId: 1). Data was extracted from the following sources:
+    * [Luabase](https://luabase.com) `ethereum.tags` table: malicious addresses with etherscan labels `exploit`, `heist`, and `phish-hack`
+
 
 ### ChainId 10: Optimism
 
-* `labels/10/malicious_smart_contracts.csv`: Smart contracts deployed on Optimism (chainId: 10) by malicious addresses with optimistic.etherscan label `exploit`.
+* `labels/10/malicious_smart_contracts.csv`: Smart contracts deployed on Optimism (chainId: 10). Data was extracted from the following sources:
+    * malicious addresses with optimistic.etherscan label `exploit`
 
+
+## Dataset Schema
+
+### `malicious_smart_contracts`
+
+CSV files with the name `malicious_smart_contracts.csv` will have the following columns:
+
+| Column | Description   |
+|---|---|
+| contract_address  | smart contract address  |
+| contract_tag  | smart contract tag from etherscan  |
+| contract_creator  | smart contract's deployer address  |
+| contract_creation_tx  | smart contract creation tx hash  |
+| contract_creator_tag  | smart contract's deployer from etherscan  |
+| source  | where the date came from  |
+| notes  | any additional notes  |
+| contract_creator_etherscan_label  | etherscan labels for contract_creator address |
+
+### `phishing_scams`
+
+CSV files with the name `phishing_scams.csv` will have the following columns: coming soon!
+
+| Column | Description   |
+|---|---|
+|   |   |
+|   |   |
+|   |   |
+|   |   |
+|   |   |
+|   |   |
+|   |   |
+|   |   |
