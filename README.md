@@ -8,16 +8,23 @@ Inspired by https://cryptoscamdb.org/ and https://www.web3rekt.com/ that keeps t
 
 ### ChainId 1: Ethereum
 
-* `labels/1/malicious_smart_contracts.csv`: Smart contracts deployed on Ethereum Mainnet (chainId: 1). Data was extracted from the following sources:
-    * [Luabase](https://luabase.com) `ethereum.tags` table: malicious addresses with etherscan labels `exploit`, `heist`, and `phish-hack`
-* `labels/1/phishing_scams.csv`: Addresses involved in phishing scams. Data was extracted from the following sources:
-    * [Luabase](https://luabase.com) `ethereum.tags` table: malicious addresses with etherscan labels `phish-hack`
+#### `labels/1/malicious_smart_contracts.csv`
+
+Smart contracts deployed on Ethereum Mainnet (chainId: 1). Data was extracted from the following sources:
+* [Luabase](https://luabase.com) `ethereum.tags` table: malicious addresses with etherscan labels `exploit`, `heist`, and `phish-hack`
+
+#### `labels/1/phishing_scams.csv`
+
+Addresses involved in phishing scams. Data was extracted from the following sources:
+* [Luabase](https://luabase.com) `ethereum.tags` table: malicious addresses with etherscan labels `phish-hack`
 
 
 ### ChainId 10: Optimism
 
-* `labels/10/malicious_smart_contracts.csv`: Smart contracts deployed on Optimism (chainId: 10). Data was extracted from the following sources:
-    * malicious addresses with optimistic.etherscan label `exploit`
+#### `labels/10/malicious_smart_contracts.csv`
+
+Smart contracts deployed on Optimism (chainId: 10). Data was extracted from the following sources:
+* Malicious addresses with optimistic.etherscan label `exploit`
 
 
 ## Dataset Schema
