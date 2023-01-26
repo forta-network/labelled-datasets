@@ -46,3 +46,11 @@ CSV files with the name `phishing_scams.csv` will have the following columns:
 | is_contract  | boolean flag whether address is a contract or EOA  |
 | etherscan_tag  | address tag from etherscan  |
 | etherscan_labels  | etherscan labels for address  |
+
+## Malicious Addresses
+
+### Datasets
+
+| 🗂 Filepath | ⛓ Chain | 📝 Description |
+|---|---|---|
+| `labels/1/etherscan_malicious_labels.csv`  | Ethereum Mainnet  | Addresses with etherscan labels `exploit`, `heist`, and `phish-hack`(chainId: 1). |
